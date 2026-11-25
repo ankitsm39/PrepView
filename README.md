@@ -1,36 +1,202 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 PrepView AI — Master Technical Interviews with AI
 
-## Getting Started
+<p align="center">
+  <strong>Your Personal AI-Powered Technical Interview Coach</strong>
+</p>
 
-First, run the development server:
+<p align="center">
+  Practice technical interviews, receive instant AI feedback, and improve your interview performance.
+</p>
+
+<p align="center">
+  <a href="https://www.prep-view-ai.tech/">Live Demo</a> •
+  <a href="https://github.com/ankitsm39/PrepView">Source Code</a>
+</p>
+
+---
+
+## 📌 About the Project
+
+**PrepView AI** is an AI-powered technical interview preparation platform designed to help software engineering candidates prepare for real-world technical interviews.
+
+The platform combines AI-driven interview simulations, personalized questions, voice-based interactions, and instant performance feedback into one application.
+
+Users can select their desired job role, technology stack, and difficulty level, participate in simulated interviews, and receive actionable feedback to improve their technical and communication skills.
+
+The primary goal is to make technical interview preparation more accessible, interactive, and personalized.
+
+## ✨ Key Features
+
+### 🤖 AI-Powered Interview Feedback
+- AI-driven evaluation of interview responses.
+- Analysis of coding skills and problem-solving approaches.
+- Communication and response-quality feedback.
+- Actionable suggestions for improvement.
+
+### 💻 Technical Interview Practice
+- Practice coding and technical interview questions.
+- Prepare for system design interviews.
+- Practice behavioral interview questions.
+- Role-specific interview preparation.
+
+### 🎙️ Voice-Based Interview Simulation
+- Interact with an AI interview coach.
+- Answer questions through voice interaction.
+- Experience a more realistic interview environment.
+
+### 📊 Performance Tracking
+- Monitor interview performance.
+- Review previous interview sessions.
+- Analyze strengths and weaknesses.
+- Track improvement over time.
+
+### 🎯 Personalized Interview Preparation
+- Select your target job role.
+- Choose your preferred technology stack.
+- Practice at different difficulty levels.
+- Prepare for frontend, backend, full-stack, DevOps, and other roles.
+
+### 🌐 Multiple Technology Stacks
+- Supports 20+ programming languages and technology stacks.
+- Practice with technologies including Python, Java, JavaScript, C++, Go, and Rust.
+
+## 🛠️ Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js | Frontend framework |
+| TypeScript | Type-safe application development |
+| Tailwind CSS | UI styling |
+| Firebase | Authentication and data management |
+| Gemini API | AI-powered interview generation and feedback |
+| Git & GitHub | Version control |
+| Vercel | Deployment |
+
+## 🏗️ Application Workflow
+
+1. **Choose Your Role:** Select your target position, technology stack, and difficulty level.
+2. **Start an Interview:** Begin an AI-powered simulated interview.
+3. **Answer Questions:** Interact with the AI coach using voice.
+4. **AI Evaluation:** The system evaluates your responses.
+5. **Receive Feedback:** Get insights into technical knowledge, communication, and problem-solving.
+6. **Track Progress:** Review previous sessions and identify areas for improvement.
+
+## 🧠 AI Integration
+
+PrepView AI integrates Google's Gemini API to provide intelligent interview assistance.
+
+The AI integration supports:
+- Generating relevant interview questions.
+- Evaluating candidate responses.
+- Providing personalized feedback.
+- Identifying strengths and weaknesses.
+- Suggesting improvements for future interviews.
+
+## 📂 Project Information
+
+| Attribute | Details |
+|---|---|
+| Project Name | PrepView AI |
+| Project Type | Full-Stack Web Application |
+| Domain | AI / EdTech / Interview Preparation |
+| Development Role | Solo Full-Stack Developer |
+| Complexity | Intermediate |
+| Frontend | Next.js, TypeScript |
+| Backend Services | Firebase |
+| AI Integration | Google Gemini API |
+| Styling | Tailwind CSS |
+| Deployment | Vercel |
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js
+- npm
+- Git
+- Firebase project
+- Google Gemini API key
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/ankitsm39/PrepView.git
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd PrepView
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Configure environment variables**
+
+Create a `.env.local` file in the project root and configure the Firebase and Gemini credentials according to the environment variable names used in the application.
+
+Example:
+
+```env
+NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_firebase_project_id
+
+GEMINI_API_KEY=your_gemini_api_key
+```
+
+Never commit actual API keys or private credentials.
+
+**5. Run the development server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*Note: The environment variable names and setup commands should be checked against the actual project source before use.*
 
-## Learn More
+## 🌍 Live Application
 
-To learn more about Next.js, take a look at the following resources:
+Experience PrepView AI:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**https://www.prep-view-ai.tech/**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔮 Future Improvements
 
-## Deploy on Vercel
+- Advanced coding interview simulations.
+- More detailed performance analytics.
+- Personalized learning recommendations.
+- Expanded question database.
+- Additional interview categories.
+- Improved AI evaluation and feedback.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👨‍💻 Developer
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Ankit Mathapati**
+
+Full-Stack Developer | Software Engineer | AI Enthusiast
+
+Developed PrepView AI as a solo full-stack project, working across frontend development, application logic, Firebase integration, and AI-powered functionality.
+
+## 📬 Connect
+- GitHub: https://github.com/ankitsm39
+
+---
+
+<p align="center">
+  <strong>PrepView AI — Prepare Smarter. Practice Better. Interview Confidently. 🚀</strong>
+</p>
